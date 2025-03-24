@@ -1,0 +1,10 @@
+@startuml
+start
+:Set double[] arr={10.1, 11.2, 12.3, 13.4, 14.5};
+:Set double avg=0;
+while ((int i=0;i<5;i++) is (true)
+:Set avg=avg+arr[i];
+endwhile
+:Print "AVERAGE= " +avg/5;
+stop
+@enduml
